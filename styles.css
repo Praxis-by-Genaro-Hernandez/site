@@ -196,6 +196,7 @@ footer {
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
   overflow: hidden;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   display: flex;
@@ -216,16 +217,13 @@ footer {
 }
 
 /* Card content */
-.community-info {
-  padding: 1.5rem;
-}
 
-.community-info h3 {
+.community-card h3 {
   margin-bottom: 0.5rem;
   color: #133E40;
 }
 
-.community-info p {
+.community-card p {
   color: #555;
   line-height: 1.5;
   font-size: 0.95rem;
@@ -233,7 +231,7 @@ footer {
 }
 
 /* Buttons inside cards */
-.community-info .btn {
+.community-card .btn {
   background: #1EA896;
   color: #fff;
   padding: 0.6rem 1.2rem;
@@ -242,7 +240,7 @@ footer {
   transition: background 0.3s ease;
 }
 
-.community-info .btn:hover {
+.community-card .btn:hover {
   background: #14766c;
 }
 
@@ -262,6 +260,7 @@ footer {
   margin: 0.5rem auto 0;
   color: #555;
 }
+
 
 
 
