@@ -203,10 +203,11 @@ footer {
 
 .community-card {
   background: #ffffff;
-  max-width: 600px;
+  max-width: 400px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   padding: 1.5rem;
+  margin: 10px;
   overflow: hidden;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   display: flex;
@@ -270,6 +271,7 @@ footer {
   margin: 0.5rem auto 0;
   color: #555;
 }
+
 
 
 
