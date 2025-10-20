@@ -181,3 +181,87 @@ footer {
   }
 }
 
+/* ============================= */
+/* 🧩 COMMUNITY SECTION STYLES   */
+/* ============================= */
+
+.community-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem 0;
+}
+
+.community-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.community-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Community image or banner */
+.community-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Card content */
+.community-info {
+  padding: 1.5rem;
+}
+
+.community-info h3 {
+  margin-bottom: 0.5rem;
+  color: #133E40;
+}
+
+.community-info p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons inside cards */
+.community-info .btn {
+  background: #1EA896;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.community-info .btn:hover {
+  background: #14766c;
+}
+
+/* Community section header */
+.community-header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.community-header h1 {
+  font-size: 2.2rem;
+  color: #133E40;
+}
+
+.community-header p {
+  max-width: 600px;
+  margin: 0.5rem auto 0;
+  color: #555;
+}
+
+
+
