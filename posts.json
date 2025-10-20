@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Understanding IT Infrastructure as a Business Asset",
+    "date": "October 12, 2025",
+    "author": "Genaro Hernández",
+    "excerpt": "IT infrastructure is the invisible framework that powers every business operation. Here's how to align it with real outcomes.",
+    "image": "assets/images/blog1.jpg",
+    "url": "blog-post.html"
+  },
+  {
+    "title": "DNS, DHCP & IP: The Invisible Backbone",
+    "date": "October 5, 2025",
+    "author": "Genaro Hernández",
+    "excerpt": "Discover how the foundational trio of DNS, DHCP, and IP work silently to sustain modern digital experiences.",
+    "image": "assets/images/blog2.jpg",
+    "url": "blog-post.html"
+  },
+  {
+    "title": "Soft Skills for Technical Leaders",
+    "date": "September 28, 2025",
+    "author": "Genaro Hernández",
+    "excerpt": "Leadership in IT isn’t only about expertise — it’s about empathy, communication, and mentoring the next generation.",
+    "image": "assets/images/blog3.jpg",
+    "url": "blog-post.html"
+  }
+]
