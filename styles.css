@@ -185,11 +185,20 @@ footer {
 /* 🧩 COMMUNITY SECTION STYLES   */
 /* ============================= */
 
+/*
 .community-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 2rem 0;
+}
+*/
+
+.community-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
 }
 
 .community-card {
@@ -261,6 +270,7 @@ footer {
   margin: 0.5rem auto 0;
   color: #555;
 }
+
 
 
 
