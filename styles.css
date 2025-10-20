@@ -136,3 +136,48 @@ footer {
   margin-top: 0.8rem;
 }
 
+/* Logo container (applies to both image or text logos) */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;              /* space between icon and text */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #133E40;           /* matches primary brand color */
+  text-decoration: none;
+  font-size: 1.5rem;        /* text logo size */
+}
+
+/* If logo is an image */
+.logo img {
+  height: 48px;             /* main desktop logo height */
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effect for a subtle lift */
+.logo:hover img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Responsive scaling */
+@media (max-width: 768px) {
+  .logo img {
+    height: 40px;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    height: 32px;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+}
+
